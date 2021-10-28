@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#regist_body{
+    width: 80vw;
+    margin: auto;
+    padding: 4vw 0;
+}
+.form_input{
+    width: 60vw;
+    margin: auto;
+}
+.registration_head{
+    text-align: center;
+}
+
+.registration_head h3{
+    font-size: calc(20px + 1vw);
+}
+.form_element{
+    margin-bottom: 1vw;
+}
+.form_element label{
+    font-size: calc(10px + 1vw);
+    display: block;
+    margin-bottom: 0.4vw;
+}
+.form_text{
+    width: 100%;
+    font-size: calc(5px + 1vw);
+    padding: 0.5vw;
+    outline: none;
+}
+#Country{
+    font-size: calc(5px + 1vw);
+    width: 20%;
+}
+#state{
+    font-size: calc(5px + 1vw);
+    width: 26%;
+}
+#city{
+    font-size: calc(5px + 1vw);
+    width: 26%;
+}
+#qualif_input{
+    font-size: calc(5px + 1vw);
+    padding: 0.5vw;
+    margin-right: 4vw;
+}
+#Name{
+    outline: none;
+    border: none;
+    display: inline;
+    font-size: calc(5px + 1vw);
+    width: 7%;
+}
+#quali{
+    outline: none;
+    border: none;
+    display: inline;
+    font-size: calc(5px + 1vw);
+    width: 7%;
+}
+#qualif_inputs{
+    font-size: calc(5px + 1vw);
+    padding: 0.5vw;
+    margin-right: 4vw;
+}
+#certifi_file{
+    font-size: calc(5px + 1vw);
+}
+#certifi_files{
+    font-size: calc(5px + 1vw);
+}
+
+.submit_btn{
+    text-align: center;
+}
+
+.submit_btn button{
+    border: none;
+    background-image: linear-gradient(red, black);
+    color: white;
+    padding: 1vw 2vw;
+    font-size: calc(8px + 1vw);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2vw;
+}
+
+.submit_btn button:hover{
+    background-image: linear-gradient(rgb(184, 142, 142), black);
+}
+#certificate{
+    border: none;
+    font-size: calc(5px + 1vw);
+    width: 11%;
+}
